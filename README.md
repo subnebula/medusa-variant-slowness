@@ -5,7 +5,6 @@ To get this up and running:
 - Set up a database locally with docker
   - `docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=medusa -d postgres:16.3`
   - `npx medusa db:setup --db medusa`
-  - 
 - Set database url in .env file
   - `postgres://postgres:postgres@localhost/medusa`
 - Seed database using /src/scripts/seed.ts
